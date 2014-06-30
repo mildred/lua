@@ -1,0 +1,17 @@
+{
+  "name": "lua",
+  "version": "5.2.3",
+  "homepage": "http://lua.org",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "make linux"
+  },
+  "bin": {
+    "lua":  "src/lua",
+    "luac": "src/luac"
+  },
+  "man": [
+    "doc/lua.1",
+    "doc/luac.1"
+  ]
+}
