@@ -4,14 +4,14 @@
   "homepage": "http://lua.org",
   "license": "MIT",
   "scripts": {
-    "preinstall": "make linux"
+    "preinstall": "make INSTALL_TOP=$PWD linux install"
   },
   "bin": {
-    "lua":  "src/lua",
-    "luac": "src/luac"
+    "lua":  "bin/lua",
+    "luac": "bin/luac"
   },
   "man": [
-    "doc/lua.1",
-    "doc/luac.1"
+    "man/man1/lua.1",
+    "man/man1/luac.1"
   ]
 }

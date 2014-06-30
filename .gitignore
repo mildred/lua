@@ -2,3 +2,7 @@
 /src/liblua.a
 /src/lua
 /src/luac
+/bin/
+/man/
+/include/
+/lib/
